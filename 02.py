@@ -1,12 +1,10 @@
 def par(num):
-    if (num % 2) == 0:
-        return True
-    else:
-        return False
-
+    return not (num % 2 == 0)
+    
 def main():
-    num = int(input("digite um número: "))
-    print(f'{par(num)}')
+    num = int(input())
+    cod = par(num)
+    print(cod)
 
 
 if __name__ == "__main__":

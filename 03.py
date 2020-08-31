@@ -1,16 +1,14 @@
 def sin(cor):
-    if cor == "V":
+    if cor.upper() == "V":
         return print('Siga')
-    elif cor == "A":
+    elif cor.upper() == "A":
         return print('Atenção')
-    else:
+    elif cor.upper() == "E":
         return print('Pare')
 
 def main():
-    print('"V" - verde\n' 
-    '"A"  - amarelo\n' 
-    '"E" - vermelho')
-    cor = str(input('digite uma letra: '))
+
+    cor = str(input())
     return sin(cor)
 
 if __name__ == "__main__":
