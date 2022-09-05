@@ -1,3 +1,5 @@
+#Depois de inserir um nome, atribuir SR e SRa.
+
 def sexo(sex, nome):
     if sex == 1:
         return print(f'Ilmo Sr. {nome}')
